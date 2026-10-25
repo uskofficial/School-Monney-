@@ -1385,7 +1385,7 @@
         <div id="realTimeClock" class="current-date-time"></div>
 
         <div class="fee-card">
-            <div class="fee-name">ค่าธรรมเนียมหอพัก 1/2569 <br><span style="font-weight:400;
+            <div class="fee-name">ค่าธรรมเนียมหอพัก 2/2569 <br><span style="font-weight:400;
             font-size:13px; color: #555;">( Dormitory Fee )</span></div>
             <div style="text-align:right">
                 <span style="color:#444;
@@ -1405,7 +1405,7 @@
         </div>
 
         <div class="boarding-box">
-            <div class="boarding-header">ค่าอาหารรายเดือน 1/2569 <span style="font-size:13px;
+            <div class="boarding-header">ค่าอาหารรายเดือน 2/2569 <span style="font-size:13px;
             font-weight:400; color: #444;">( Boarding Fee )</span></div>
             <div id="monthGrid" class="month-grid"></div>
             <div class="total-section">
@@ -1991,7 +1991,7 @@ Swal.fire({
             html: `
                 <div class="food-popup-container">
                     <div class="fp-header">
-                        <div class="fp-title">ค่าอาหารรายเดือน 1/2569 <span style="font-size:15px; font-weight:400; color: #444;">( Boarding Fee )</span></div>
+                        <div class="fp-title">ค่าอาหารรายเดือน 2/2569 <span style="font-size:15px; font-weight:400; color: #444;">( Boarding Fee )</span></div>
                
          <div class="fp-date">${dateStr} เวลา ${timeStr}</div>
                     </div>
@@ -2301,7 +2301,7 @@ const d = currentData.data;
             let slipUrl = getAttachmentLink(d, "หอพัก");
 let payDate = getPaymentDate(d, "หอพัก");
             paidItems.push({
-                name: "ค่าธรรมเนียมหอพัก 1/2569",
+                name: "ค่าธรรมเนียมหอพัก 2/2569",
                 amount: d["ยอดค้างค่าธรรมเนียม"] || "ตรวจสอบในสลิป",
                 slipUrl: slipUrl,
                 payDate: payDate
@@ -3419,7 +3419,7 @@ const address = "เลขที่ 114/1 หมู่ 2 ตำบลคลอ�
 "";
         
         if (dormStatus.includes("ชำระแล้ว") || dormVerify.includes("สำเร็จ") || dormVerify.includes("ชำระแล้ว") || dormVerify.includes("การโอนสำเร็จ")) {
-            const itemName = "ค่าธรรมเนียมหอพัก 1/2569";
+            const itemName = "ค่าธรรมเนียมหอพัก 2/2569";
 const amount = studentData["ยอดค้างค่าธรรมเนียม"] || "0";
             const slipUrl = getAttachmentUrl(studentData, "หอพัก");
             const payDate = getPaymentDateStr(studentData, "หอพัก");
